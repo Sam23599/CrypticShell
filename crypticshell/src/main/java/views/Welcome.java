@@ -58,11 +58,11 @@ public class Welcome {
                     System.out.println("Login successful!\n");
                     new UserView(email).home();
                 }else{
-                    System.out.println("Invalid OTP.");
+                    System.out.println("Invalid OTP.\n");
                 }
             }
             else{
-                System.out.println("User does not exist. Please register first.");
+                System.out.println("User does not exist. Please register first.\n");
             }
             // sc.close();
 
@@ -88,15 +88,15 @@ public class Welcome {
             User user = new User(name, email);
             int response = UserService.saveUser(user);
             if(response == 0){
-                System.out.println("User already exists. Please login.");
+                System.out.println("User already exists. Please login.\n");
             }
             else {
-                System.out.println("User registered successfully. Please login to continue.");
+                System.out.println("User registered successfully. Please login to continue.\n");
 
             }
             
         }else{
-            System.out.println("Invalid OTP.");
+            System.out.println("Invalid OTP.\n");
         }
 
     }
