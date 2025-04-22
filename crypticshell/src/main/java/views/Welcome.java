@@ -36,7 +36,7 @@ public class Welcome {
                 System.out.println("Register selected.");
                 signup();
                 break;
-            case 3:
+            case 0:
                 System.out.println("Exiting the application.");
                 System.exit(0);
                 break;
