@@ -1,7 +1,3 @@
-Here's a clean and concise `README.md` for your **CrypticShell** project:
-
----
-
 # 🔐 CrypticShell
 
 CrypticShell is a secure file management tool built in **Java** with **Maven**, utilizing **MySQL** for persistent storage and custom **email-based authentication**. It allows users to hide, view, or delete files from their local system with a secure, user-specific login system.
@@ -54,35 +50,45 @@ CrypticShell is a secure file management tool built in **Java** with **Maven**, 
 
 ## 📷 Screenshots
 
-1. Welcome Page : 
+1. Welcome Page :
+   
    ![image](https://github.com/user-attachments/assets/4b6be9e8-b507-42ad-bd41-aedafc927670)
 
-2. User Register :
+3. User Register :
+   
    Initial Database before registration : 
       ![image](https://github.com/user-attachments/assets/13ebd333-5635-422a-b90f-db6384204a5c)
 
    Post User Registration : 
       ![image](https://github.com/user-attachments/assets/2a0876f8-1b47-457d-b45d-af834a785ff3)
+   
       ![image](https://github.com/user-attachments/assets/6e62b514-1de2-4f02-abfc-d70df2331c50)
 
-3. User Login :
+5. User Login :
+   
    Valid User Check-
       ![image](https://github.com/user-attachments/assets/240760e0-6ce2-4813-b595-7df237116151)
 
-4. User Page (post login) :
+7. User Page (post login) :
+   
    ![image](https://github.com/user-attachments/assets/01536de2-44d6-4338-8828-000a1c53b67c)
 
-5. Encrypt file :
+9. Encrypt file :
+    
    Before adding files :
       ![image](https://github.com/user-attachments/assets/9508d6ad-ca4e-4b5c-b1e2-c15358514853)
 
    After adding files :
       ![image](https://github.com/user-attachments/assets/cc4f88f3-8bd0-4328-b094-4d56bb859a0b)
+
       ![image](https://github.com/user-attachments/assets/d5436980-f9a4-4f56-9614-83c691be2b94)
+
       ![image](https://github.com/user-attachments/assets/33f167d0-7994-423d-b429-3fa7333f3af7)
 
-6. Decrpyt File :
+11. Decrpyt File :
+
    ![image](https://github.com/user-attachments/assets/0b116159-be58-4595-abb9-3fa6474b4546)
+   
    ![image](https://github.com/user-attachments/assets/57f79b13-a073-4fdc-9866-def1644779c4)
 
 
