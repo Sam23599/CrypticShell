@@ -60,7 +60,7 @@ public class DataDAO {
             fr.close();
             bin_file.delete(); 
 
-            System.out.println("File hidden successfully!");
+            System.out.println("File hidden successfully!\n");
 
 
         } catch (SQLException e) {
@@ -91,7 +91,7 @@ public class DataDAO {
         PreparedStatement ps1 = connection.prepareStatement("DELETE FROM data WHERE id = ?");
         ps1.setInt(1, id);
         ps1.executeUpdate();
-        System.out.println("File unhidden successfully!");
+        System.out.println("File unhidden successfully!\n");
 
     }
 }
